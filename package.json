@@ -16,6 +16,14 @@
     "node": "7.9.0",
     "npm": "4.2.0"
   },
+   "repository": {    
+     "type": "git", 
+     "url": "https://github.com/JaeGyeng/project.git"  
+   },
+  
+  
+  
+  
   "author": "jo jae gyeng",
   "license": "ISC"
 }
