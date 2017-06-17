@@ -1,0 +1,274 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+html, body {
+   
+    
+  
+    background-attachment:relative;
+    background-size: 80% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;    
+    background-color: #fff;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 21px;
+    padding: 100px;
+}
+
+
+
+
+
+
+
+
+.wrapper {
+    
+    
+    width: 500px;
+    height: 660px;
+    padding: 5px;
+    margin: 0 auto;
+    position:relative;
+    left:10px;
+    top: 150px;
+
+}
+
+
+
+#loginWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #FAEE51;
+    display: block;
+    padding-top: 200px;
+    
+}
+#nicknameInput{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    border-radius: 5px;
+        
+}
+
+#loginBtn
+{
+    font-size:20px;
+}
+#nickWrapper {
+    display: none;
+    
+    
+}
+.banner {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    color: #408AFF;
+    
+}
+.banner2  {
+    
+    display: inline-block;
+    color: #8A4CFF;
+}
+.controls {
+    height: 100px;
+    margin: 5px 0px;
+    position: relative;
+}
+#historyMsg {
+   
+    height: 300px;
+    background-color: #fff;
+    overflow: auto;
+    padding: 2px;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.9);
+    border-width:medium;
+    border-style: groove;
+    border-color: darkorange;
+}
+
+
+
+#historyMsg img {
+    max-width: 50%;
+}
+.timespan {
+    color: #8F8A8A;
+}
+.items {
+    height: 30px;
+}
+#colorStyle {
+    width: 50px;
+    border-width:thin;
+    border-style: groove;
+    border-color: darkorange;
+    padding: 0;
+    border-radius: 5px;
+}
+/*custom the file input*/
+
+.imageLable {
+    position: relative;
+}
+#sendImage {
+    position: absolute;
+    width: 52px;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+/*end custom file input*/
+
+#messageInput {
+    width: 430px;
+    max-width: 440px;
+    height: 90px;
+    max-height: 90px;
+    float:left;
+    border-radius: 5px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    background-color:rgba(255, 255, 255, 0.9);
+    border-width:medium;
+    border-style: groove;
+    border-color: darkorange;
+
+
+    
+}
+#sendBtn {
+    width: 50px;
+    height: 96px;
+    float: right;
+    font-size: 20px;
+}
+#emojiWrapper {
+    display: none;
+    width: 400px;
+    bottom: 105px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px #555;
+}
+#emojiWrapper img {
+    margin: 2px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+}
+#emojiWrapper img:hover {
+    background-color: blue;
+}
+.emoji{
+    display: inline;
+}
+
+.Userlist{
+    
+    width:200px;
+    height: 200px; 
+    overflow: auto;
+    padding: 2px;
+    position:fixed;
+    left:20px;
+    top: 50px;
+    
+}
+
+.roomlist{
+    
+    width:200px;
+    height: 200px; 
+    overflow: auto;
+    position:fixed;
+    right:5px;
+    top: 50px;
+    
+}
+
+#crtRoom{
+    position:fixed;
+    right:5px;
+    top: 250px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;  
+    border-radius: 5px;
+}
+
+
+
+#btnRoomcrt{
+    
+ position:fixed;
+ right:5px;
+ top: 285px;   
+ font-size: 20px;   
+    
+    
+}
+
+#inpRoomName{
+    
+    
+ position:fixed;
+ right:5px;
+ top: 320px;  
+ font-family: 'Nanum Pen Script', cursive;
+ font-size:20px;
+ border-radius: 5px;  
+}
+
+#btnRoomEnt{
+    
+    
+ position:fixed;
+ right:105px;
+ top: 355px;     
+ font-size: 20px;   
+}
+
+
+#btnRoomExit{
+    
+ position:fixed;
+ right:10px;
+ top: 355px;
+ font-size: 20px;    
+}
+
+
+
+.orange {
+  color: #fef4e9;
+  border: solid 1px #da7c0c;
+  background: #f78d1d;
+  background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+  background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+  border-radius: 5px;
+  font-family: 'Nanum Pen Script', cursive;
+}
+.orange:hover {
+  background: #f47c20;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+  background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+  border-radius: 5px;     
+    
+}
+.orange:active {
+  color: #fcd3a5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+  background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+  border-radius: 5px;    
+}

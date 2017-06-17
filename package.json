@@ -1,0 +1,21 @@
+{
+  "name": "miniontalk",
+  "version": "1.0.0",
+  "description": "chat program",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express.js": "^1.0.0",
+    "socket.io": "^0.9.19"
+  },
+  "engines": {
+    "node": "7.9.0",
+    "npm": "4.2.0"
+  },
+  "author": "jo jae gyeng",
+  "license": "ISC"
+}
